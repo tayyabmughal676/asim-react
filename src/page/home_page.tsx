@@ -4,43 +4,14 @@ import icon_happy from '../assets/icon_happy.svg'
 import icon_sad from '../assets/icon_sad.svg'
 import icon_romantic from '../assets/icon_romantic.svg'
 import icon_send from '../assets/icon_send.svg'
-import {SidebarComponent} from "./sidebar.tsx";
+import {SidebarComponent} from "../components/sidebar.tsx";
 export const HomePage = () => {
-    // const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 4', 'Item 4', 'Item 4', 'Item 4', 'Item 4','Item 4', 'Item 4'];
     return (
         <>
             {/*main div*/}
                 <div className="h-screen w-screen bg-zinc-900">
                     <div className="inline-flex">
                         <SidebarComponent/>
-                        {/*/!*sidebar*!/*/}
-                        {/*<div className="w-64 h-screen flex flex-col-4 bg-slate-700 p-4">*/}
-                        {/*    <div className="flex-col justify-between items-start flex">*/}
-                        {/*        <div className="gap-10 justify-start items-center">*/}
-                        {/*            <div className="inline-flex flex-row justify-between gap-10">*/}
-                        {/*                <h4 className="text-white font-bold text-[18px] font-['Proxima Nova']">*/}
-                        {/*                    Previous Queries*/}
-                        {/*                </h4>*/}
-                        {/*                <img src={brush} alt="BigCo Inc. logo"/>*/}
-                        {/*            </div>*/}
-                        {/*            {items.map(*/}
-                        {/*                (item, index) => (*/}
-                        {/*                    <li key={index}>{item}</li>*/}
-                        {/*                )*/}
-                        {/*            )*/}
-                        {/*            }*/}
-                        {/*        </div>*/}
-                        {/*        /!*user profile*!/*/}
-                        {/*        <div className="bg-slate-800 p-4 inline-flex flex-row rounded-[15px] gap-3">*/}
-                        {/*            /!*<div className="justify-center item-center">*!/*/}
-                        {/*            <img src={avatar} alt="BigCo Inc. logo"/>*/}
-                        {/*            <p className="font-bold text-xl font-['Proxima Nova'] text-white">*/}
-                        {/*                Asim Qamar*/}
-                        {/*            </p>*/}
-                        {/*            /!*</div>*!/*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                         {/*text area*/}
                         <div className="w-[1280px] inline-flex flex-col-8 gap-[60px] items-center justify-center bg-zinc-800">
                             {/*Heading and Paragraph*/}
@@ -56,21 +27,21 @@ export const HomePage = () => {
                                 {/*div 1*/}
                                 <div className="inline-flex gap-[30px] items-center justify-center">
                                     <div
-                                        className="w-[100px] h-[100px] inline-flex px-6 py-6 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
+                                        className="w-[100px] h-[100px] hover:bg-gray-800 inline-flex px-6 py-6 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
                                         <img src={icon_happy} alt="Happy"/>
                                         <div className="text-white">
                                             Happy
                                         </div>
                                     </div>
                                     <div
-                                        className="w-[100px] h-[100px] inline-flex px-6 py-6 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
+                                        className="w-[100px] h-[100px] inline-flex px-6 py-6 hover:bg-gray-800 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
                                         <img src={icon_sad} alt="Sad"/>
                                         <div className="text-white">
                                             Sad
                                         </div>
                                     </div>
                                     <div
-                                        className="w-[100px] h-[100px] inline-flex px-6 py-6 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
+                                        className="w-[100px] h-[100px] inline-flex px-6 py-6 hover:bg-gray-800 active:bg-blue-600 rounded-[10px] gap-3 border-zinc-500 border-2 flex-col justify-center items-center">
                                         <img src={icon_romantic} alt="Romantic"/>
                                         <div className="text-white">
                                             Romantic

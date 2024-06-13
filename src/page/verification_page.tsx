@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export const VerificationPage = () => {
+export const VerificationComponent = () => {
     return (
         <>
             <div className="w-screen h-screen bg-zinc-900">

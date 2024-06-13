@@ -13,7 +13,7 @@ export const SidebarComponent = () => {
                             <h4 className="text-white font-bold text-[18px] font-['Proxima Nova']">
                                 Previous Queries
                             </h4>
-                            <img src={brush} alt="BigCo Inc. logo"/>
+                            <img src={brush} alt="Brush"/>
                         </div>
                         {items.map(
                             (item, index) => (
@@ -25,7 +25,7 @@ export const SidebarComponent = () => {
                     {/*user profile*/}
                     <div className="bg-slate-800 p-4 inline-flex flex-row rounded-[15px] gap-3">
                         {/*<div className="justify-center item-center">*/}
-                        <img src={avatar} alt="BigCo Inc. logo"/>
+                        <img src={avatar} alt="Profile Avatar"/>
                         <p className="font-bold text-xl font-['Proxima Nova'] text-white">
                             Asim Qamar
                         </p>

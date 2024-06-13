@@ -1,6 +1,6 @@
-// import {WelcomeComponent} from "./components/welcome_component.tsx";
+// import {WelcomeComponent} from "./components/welcome_page.tsx";
 
-import {HomeComponent} from "./components/home_component.tsx";
+import {SplashComponent} from "./components/splash_component.tsx";
 
 function App() {
 
@@ -8,10 +8,10 @@ function App() {
 
         // Main Div
         <div className="w-screen h-screen bg-zinc-900">
-            {/*<SplashComponent/>*/}
+            <SplashComponent/>
             {/*<WelcomeComponent/>*/}
             {/*{<VerificationComponent/>}*/}
-            {<HomeComponent/>}
+            {/*{<HomeComponent/>}*/}
             {/*<>*/}
             {/*    <h1 className="text-xl font-bold text-white font-light underline text-center space-y-4"> This is my Masters Thesis Website</h1>*/}
             {/*</>*/}
